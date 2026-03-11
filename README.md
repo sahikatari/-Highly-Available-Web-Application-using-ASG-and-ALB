@@ -133,7 +133,7 @@ A **base EC2 instance** was launched to configure the application.
 
 ---
 
-# 📜 User Data Script
+# 📜 User Data Script For Both Server Just Change Version 2.0 in second Server
 
 The following script installs **Nginx and deploys the web application automatically**.
 
