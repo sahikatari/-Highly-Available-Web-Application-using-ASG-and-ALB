@@ -42,23 +42,39 @@ Key Learning Outcomes
 # 🏗 Architecture Diagram
 
 ```
- User (Internet)
-      │
-Internet Gateway
-      │
-Application Load Balancer
-      │
- ┌───────────────VPC────────────────┐
- │                                  │
- │  Public Subnet AZ-A              │
- │     EC2 (Auto Scaling Group)     │
- │                                  │
- │  Public Subnet AZ-B              │
- │     EC2 (Auto Scaling Group)     │
- │                                  │
- └──────────────────────────────────┘
-                │
-        CloudWatch Monitoring
+                        Users
+                         │
+                         ▼
+                     Internet
+                         │
+                         ▼
+                 Internet Gateway
+                         │
+                         ▼
+        ┌─────────────────────────────────┐
+        │               VPC               │
+        │                                 │
+        │     Application Load Balancer   │
+        │              │                  │
+        │              ▼                  │
+        │     Target Group (ALB)          │
+        │        │             │          │
+        │        ▼             ▼          │
+        │  Public Subnet AZ-A  Public Subnet AZ-B
+        │        │             │
+        │   EC2 Instance       EC2 Instance
+        │  (Auto Scaling)     (Auto Scaling)
+        │        │             │
+        │        └──────┬──────┘
+        │               ▼
+        │        Auto Scaling Group
+        │               │
+        │               ▼
+        │        CloudWatch Metrics
+        │        (CPU Monitoring &
+        │        Scaling Policies)
+        │
+        └─────────────────────────────────┘
 ```
 
 ---
