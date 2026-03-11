@@ -22,19 +22,20 @@ The architecture ensures the application remains **available during traffic spik
 
 # 📑 Table of Contents
 
-- [Architecture Diagram](#architecture-diagram)
-- [Technologies Used](#technologies-used)
-- [Project Implementation](#project-implementation)
-- [Networking Setup](#1-networking-setup)
-- [EC2 Base Server](#2-create-ec2-web-server-base-instance)
-- [Create AMI](#3-create-ami-amazon-machine-image)
-- [Launch Template](#4-create-launch-template)
-- [Auto Scaling Group](#5-create-auto-scaling-group-asg)
-- [Application Load Balancer](#6-configure-application-load-balancer)
-- [Failover Testing](#7-failover-testing)
-- [Scaling Validation](#8-scaling-validation)
-- [High Availability Strategy](#high-availability-strategy)
-- [Key Learning Outcomes](#key-learning-outcomes)
+
+Architecture Diagram  
+Technologies Used  
+Project Implementation  
+Networking Setup  
+EC2 Base Server  
+Create AMI  
+Launch Template  
+Auto Scaling Group  
+Application Load Balancer  
+Failover Testing  
+Scaling Validation  
+High Availability Strategy  
+Key Learning Outcomes  
 
 ---
 
