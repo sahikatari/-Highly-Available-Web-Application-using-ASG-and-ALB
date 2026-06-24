@@ -342,7 +342,7 @@ Unhealthy servers are automatically replaced.
 
 # 📸 Application Screenshots
 
-## 🌐 Load Balancer
+## 🌐 Load Balancer Output
 
 ![LB Creation](images/LB-CREATION/LB-4.jpg)
 
