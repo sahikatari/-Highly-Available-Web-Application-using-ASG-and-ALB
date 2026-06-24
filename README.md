@@ -366,12 +366,6 @@ Unhealthy servers are automatically replaced.
 ---
 
 
-## 🌐 Test Failover by Terminating Instance Manually
-
-![Test Failover](images/ASG-CREATION/ASG-OUTPUT/ASG-OP-1.jpg)
-
----
-
 ## 🌐 Scaling Log
 
 ![Scaling Log](images/MONITOR/asg-cpuUtitlization-load-graph2.jpg)
