@@ -342,35 +342,36 @@ Unhealthy servers are automatically replaced.
 
 # 📸 Application Screenshots
 
-## 🌐 Load-Blanacer
+## 🌐 Load Balancer
 
-![LB CREATION ](LB-4.jpg)
-
----
-## 🌐 Auto-Scaling Outpout
-
-![ASG CREATION ](images/ASG-OP-1.jpg)
+![LB Creation](images/LB-4.jpg)
 
 ---
+
+## 🌐 Auto Scaling Output
+
+![ASG Creation](images/ASG-OP-1.jpg)
+
+---
+
 ## 🌐 Load Generate Activity
 
-![LOAD GENERATE ](images/asg-load-activity2.jpg)
+![Load Generate Activity](images/asg-load-activity2.jpg)
 
 ---
+
 ## 🌐 Load Generate
 
-![LOAD GENERATE  ](images/STRESS-COMMAND.jpg)
+![Stress Command](images/STRESS-COMMAND.jpg)
 
 ---
-## 🌐 Test Failover by terminating instance manually
 
-![TEST FAILOVER ](images/ASG-OP-1.jpg)
+## 🌐 Test Failover by Terminating Instance Manually
+
+![Test Failover](images/ASG-OP-1.jpg)
 
 ---
+
 ## 🌐 Scaling Log
 
-![SCALING LOG ](images/asg-cpuUtitlization-load-graph2)
-
----
-
-
+![Scaling Log](images/asg-cpuUtitlization-load-graph2.jpg)
