@@ -353,6 +353,11 @@ Unhealthy servers are automatically replaced.
 ![ASG Creation](images/ASG-CREATION/ASG-OUTPUT/ASG-OP-1.jpg)
 
 ---
+## 🌐 Load Generate
+
+![Stress Command](images/LOAD-GENERATE/STRESS-COMMAND.jpg)
+
+---
 
 ## 🌐 Load Generate Activity
 
@@ -360,11 +365,6 @@ Unhealthy servers are automatically replaced.
 
 ---
 
-## 🌐 Load Generate
-
-![Stress Command](images/LOAD-GENERATE/STRESS-COMMAND.jpg)
-
----
 
 ## 🌐 Test Failover by Terminating Instance Manually
 
